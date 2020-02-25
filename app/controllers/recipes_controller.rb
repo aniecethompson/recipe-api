@@ -38,7 +38,7 @@
     
         private
         def r_params
-            params.permit(:title, :image, :cookbook_id)
+            params.permit(:online_id, :cookbook_id)
         end 
     end
 
